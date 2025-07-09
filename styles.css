@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* CONFIGURACION DE LA PAGINA INICIO */
+/* Fondo por página */
+body.inicio {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('/img/fondo-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Colores del Titulo por página */
+body.inicio .main-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 20px;
+    color: hsl(220, 16%, 96%);
+}
+
+/*VERIFICACION DEL CONTENIDO DEL CONTENEDOR CONTENT */
+body.inicio.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 5px 5px;
+    place-items: center;
+}
+
+body.inicio .image-box-1 img {
+    width: 70%;
+    height: auto;
+}
+
+body.inicio .image-box img {
+    width: 50%;
+    height: auto;
+}
+
+bodiy.inicio.text-box p,
+.page-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* CONFIGURACION DE LA PAGINA SOBRE NOSOTROS */
+body.empresa {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('/img/fondo-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.empresa .main-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 20px;
+    color: black;
+}
+
+/*VERIFICAR EL CONTENIDO DEL CONTENDOR CONTENT */
+body.empresa .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 5px 5px;
+    place-items: center;
+}
+
+body.empresa .image-box img {
+    width: 120%;
+    height: auto;
+}
+
+/* CONFIGURACION DE LA PAGINA EQUIPO */
+body.equipo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    background-image: url('/img/fondo-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.equipo .main-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 20px;
+    color: hsl(220, 16%, 96%);
+}
+
+body.equipo .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b6;
+    padding: 10px 20px;
+}
+
+body.equipo .team-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color: #f1f1f1;
+}
+
+body.equipo .team-column {
+    text-align: center;
+    width: 30%;
+    place-items: center;
+}
+
+body.equipo .team-column img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+body.equipo .team-column h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #023e8a;
+}
+
+body.equipo .team-column p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #3d3c3c;
+}
+
+body.servicio {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('/img/fondo-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.servicio .main-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 20px;
+    color: white(248, 249, 250);
+}
+
+body.contacto {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('/img/Fondo-5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.contacto .main-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0 20px;
+    color: white(248, 249, 250);
+}
+
+body.contacto .ubicacion {
+  padding: 11px 10px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+body.contacto .ubicacion h2 {
+  font-size: 24px;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+/* CONFIGURACION DE LA CABECERA */
+header {
+    background-color: #003366; 
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 5px 5px;
+    place-items: center;
+}
+
+.image-box img {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-box p,
+h3 .page-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    background:  white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
